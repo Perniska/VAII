@@ -1,0 +1,59 @@
+body {
+    background-color: lightslategray;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vrchStranky h1 {
+    font-family: "Comic Sans MS", serif;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.vrchStranky img {
+    float: left;
+    max-width:100px;
+    max-height:100px;
+
+}
+
+.vrchStranky {
+   background-color: darkslategray;
+    border-bottom-style: double;
+    text-align: center;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #333;
+    border-bottom-style: double;
+    border-bottom-color: black;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Interakcia užívateľa s menu
+
+ Kukanie či sa to upraví na gite alebo nie
+
+ */
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.menu a.aktivne {
+    background-color: darkslategray;
+    color: white;
+}
+
+
+
