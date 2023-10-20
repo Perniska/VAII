@@ -40,11 +40,7 @@ body {
     font-size: 17px;
 }
 
-/* Interakcia užívateľa s menu
-
- Kukanie či sa to upraví na gite alebo nie
-
- */
+/* Interakcia užívateľa s menu */
 .menu a:hover {
     background-color: #ddd;
     color: black;
