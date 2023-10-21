@@ -5,9 +5,9 @@ body {
 }
 
 .vrchStranky h1 {
-    font-family: "Comic Sans MS", serif;
-    text-align: center;
+    font-family: "Georgia",sans-serif;
     display: inline-block;
+    font-size: 52px;
 
 }
 
@@ -15,13 +15,15 @@ body {
     float: left;
     max-width:100px;
     max-height:100px;
-
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .vrchStranky {
    background-color: darkslategray;
     border-bottom-style: double;
     text-align: center;
+
 }
 
 .menu {
@@ -49,7 +51,54 @@ body {
 .menu a.aktivne {
     background-color: darkslategray;
     color: white;
+    position: relative;
 }
 
+.gitara img {
+ position: absolute;
 
+}
+.gitara p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    background-color: #dddddd;
+    width: fit-content; /* Aby mi pozadie nepresahovalo text*/
+    /* Oddelenie od ľavej strany stránky*/
+    margin: 320px 50px 50px 100px;
+    font-weight: bolder;
+    position: absolute;
+}
+.gitara {
+    position: relative;
+    vertical-align: bottom;
+}
+
+.akordy h1 {
+    position: relative;
+    -webkit-text-stroke: 1px gainsboro;
+    margin-left: 350px;
+}
+.akordy p {
+    position: relative;
+    margin-left: 350px;
+    color: #dddddd;
+    background-color: darkslategray;
+    border: 3px #333333;
+
+}
+
+.akordy img {
+    margin-left: 350px;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.akordy {
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    width: fit-content;
+}
 
