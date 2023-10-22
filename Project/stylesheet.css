@@ -6,23 +6,23 @@ body {
 
 .vrchStranky h1 {
     font-family: "Georgia",sans-serif;
-    display: inline-block;
     font-size: 52px;
-
 }
 
 .vrchStranky img {
     float: left;
-    max-width:100px;
-    max-height:100px;
-    margin-left: 20px;
-    margin-top: 10px;
+    max-width:5%;
+    max-height:5%;
+
 }
 
 .vrchStranky {
-   background-color: darkslategray;
-    border-bottom-style: double;
     text-align: center;
+    background-color: darkslategray;
+    min-inline-size : 750px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 
 }
 
@@ -30,8 +30,9 @@ body {
     overflow: hidden;
     background-color: #333;
     border-bottom-style: double;
+    border-top-style: double;
     border-bottom-color: black;
-}
+    min-inline-size : 750px;}
 
 .menu a {
     float: left;
@@ -55,7 +56,8 @@ body {
 }
 
 .gitara img {
- position: absolute;
+    position: relative;
+
 
 }
 .gitara p {
@@ -64,23 +66,25 @@ body {
     background-color: #dddddd;
     width: fit-content; /* Aby mi pozadie nepresahovalo text*/
     /* Oddelenie od ľavej strany stránky*/
-    margin: 320px 50px 50px 100px;
+    margin: 0 50px 100px;
+    left : 50px;
     font-weight: bolder;
     position: absolute;
+
 }
 .gitara {
-    position: relative;
-    vertical-align: bottom;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .akordy h1 {
     position: relative;
     -webkit-text-stroke: 1px gainsboro;
-    margin-left: 350px;
 }
 .akordy p {
     position: relative;
-    margin-left: 350px;
     color: #dddddd;
     background-color: darkslategray;
     border: 3px #333333;
@@ -88,7 +92,7 @@ body {
 }
 
 .akordy img {
-    margin-left: 350px;
+
     position: relative;
     max-width: 100%;
     max-height: 100%;
@@ -96,9 +100,8 @@ body {
 
 .akordy {
     text-align: center;
-    max-width: 100%;
-    max-height: 100%;
     display: block;
     width: fit-content;
+    margin-left:480px;
 }
 
